@@ -45,10 +45,10 @@ set CGO_LDFLAGS=-g -O2
 ```
 
 4. We'll need to set the key environment variables for go to function on your system.  
-1. Press the Windows key or go to the start menu and search for `system environment`.  
-2. Open the "Edit Environment Variables" control panel and click `Environment Variables` at the bottom of the window.
-3. Focus on the bottom pane and click `New`
-4. Create a new System Variable with the name of `GOPATH` and value of `C:\Users\Your Username\GoWorkspaceDir` or whatever the path is to the workspace we created in Step One.
+  1. Press the Windows key or go to the start menu and search for `system environment`.  
+  2. Open the "Edit Environment Variables" control panel and click `Environment Variables` at the bottom of the window.
+  3. Focus on the bottom pane and click `New`
+  4. Create a new System Variable with the name of `GOPATH` and value of `C:\Users\Your Username\GoWorkspaceDir` or whatever the path is to the workspace we created in Step One.
 
 5. Test by creating a small Hello World program with these directions: [https://golang.org/doc/install#testing]
 6. You should be able to run the program from the command prompt or powershell.
